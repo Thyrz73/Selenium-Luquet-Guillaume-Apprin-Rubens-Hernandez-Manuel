@@ -1,0 +1,174 @@
+{
+  "id": "725f49e5-63ce-4ac4-97d7-a7785baacabf",
+  "version": "2.0",
+  "name": "TPSELENIUM",
+  "url": "https://lambdatest.github.io/sample-todo-app/",
+  "tests": [{
+    "id": "d2b84b20-c132-4332-bc9f-4d5b2adb4035",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "42188a75-d890-40ca-b733-6f86fa8a7d23",
+    "name": "user",
+    "commands": [{
+      "id": "fb7d5d47-85f1-4379-9c71-4bf487ec3da8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77447753-354b-476c-a17c-9baac8d4ae38",
+      "comment": "",
+      "command": "click",
+      "target": "name=li1",
+      "targets": [
+        ["name=li1", "name"],
+        ["css=.ng-scope:nth-child(1) > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='li1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aff6ef88-6f4e-4b25-8ddd-44bc427feded",
+      "comment": "",
+      "command": "click",
+      "target": "name=li2",
+      "targets": [
+        ["name=li2", "name"],
+        ["css=.ng-scope:nth-child(2) > .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='li2']", "xpath:attributes"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8feb4d8-1565-46c3-a59f-82c48acfc1d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=li3",
+      "targets": [
+        ["name=li3", "name"],
+        ["css=.ng-scope:nth-child(3) > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='li3']", "xpath:attributes"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81362514-a9ce-4fc7-bf8c-abd20d45d349",
+      "comment": "",
+      "command": "click",
+      "target": "name=li4",
+      "targets": [
+        ["name=li4", "name"],
+        ["css=.ng-scope:nth-child(4) > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='li4']", "xpath:attributes"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf3d9ad-51ec-4fc9-8403-d757d508f405",
+      "comment": "",
+      "command": "click",
+      "target": "name=li5",
+      "targets": [
+        ["name=li5", "name"],
+        ["css=.ng-scope > .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='li5']", "xpath:attributes"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef74f31-54e9-40d6-a43c-a2a190d13074",
+      "comment": "",
+      "command": "click",
+      "target": "name=li5",
+      "targets": [
+        ["name=li5", "name"],
+        ["css=.ng-scope > .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='li5']", "xpath:attributes"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2734a8c-2bb7-4fe6-8860-7720896955a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=sampletodotext",
+      "targets": [
+        ["id=sampletodotext", "id"],
+        ["css=#sampletodotext", "css:finder"],
+        ["xpath=//input[@id='sampletodotext']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782f338c-9f14-4667-b792-8ee17f6f20a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=sampletodotext",
+      "targets": [
+        ["id=sampletodotext", "id"],
+        ["css=#sampletodotext", "css:finder"],
+        ["xpath=//input[@id='sampletodotext']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "new"
+    }, {
+      "id": "eda1e2c0-f10b-4d4d-b6a9-2dc106c60b69",
+      "comment": "",
+      "command": "click",
+      "target": "id=addbutton",
+      "targets": [
+        ["id=addbutton", "id"],
+        ["css=#addbutton", "css:finder"],
+        ["xpath=//input[@id='addbutton']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3893e3b-9e7d-4958-855a-2040e806a9ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=addbutton",
+      "targets": [
+        ["id=addbutton", "id"],
+        ["css=#addbutton", "css:finder"],
+        ["xpath=//input[@id='addbutton']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e1e6f2-fc1b-45ab-b34f-ada4ea162ca5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=addbutton",
+      "targets": [
+        ["id=addbutton", "id"],
+        ["css=#addbutton", "css:finder"],
+        ["xpath=//input[@id='addbutton']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6647feb-a5da-4877-b419-69198c62ae59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.well",
+      "targets": [
+        ["css=.well", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "805c8dbb-3fb3-4ce8-812b-affc3152caed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d2b84b20-c132-4332-bc9f-4d5b2adb4035"]
+  }],
+  "urls": ["https://lambdatest.github.io/sample-todo-app/"],
+  "plugins": []
+}
